@@ -1,17 +1,16 @@
 ----------------------------------------------------------------------------------
--- Engineer: 				Jason Murphy
+-- Engineer: 			Jason Murphy
 -- Create Date:   		09:00 01/13/2017 
--- Design Name: 			UART
+-- Design Name: 		UART
 -- Module Name:   		UART - Behavioral 
--- Project Name: 			GPSInterface
+-- Project Name: 		GPSInterface
 -- Target Devices: 		Spartan 6 xc6slx9-3tgg144
 -- Tool versions: 		ISE 14.7
--- Description: 			8 bit output UART receiver
---								Fixed at 115Kbaud, no parity
---								receive only RTS/CTS loop Ctrl
---								Revision V0.01
+-- Description: 		8 bit output UART receiver
+--				Revision V0.02
 -- Dependencies: 			
--- Revision 				0.01 - File Created
+-- Revision 			0.01 - File Created
+--				0.02 - Variable baud rate + Tx & Rx Ctrl
 -- Additional Comments: 
 ----------------------------------------------------------------------------------
 library IEEE;
