@@ -34,7 +34,7 @@ Port (clk50 : in STD_LOGIC;
 	Din : in STD_LOGIC_VECTOR (7 downto 0);
 	DinNotRdy, DoutNotRdy : in STD_LOGIC;
 	Dout : out  STD_LOGIC_VECTOR (7 downto 0);
-   Doutvalid, DinValid : out  STD_LOGIC);
+   	Doutvalid, DinValid : out  STD_LOGIC);
 end UART;
 
 architecture Behavioral of UART is
