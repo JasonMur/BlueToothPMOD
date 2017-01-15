@@ -1,15 +1,16 @@
 ----------------------------------------------------------------------------------
--- Engineer: 				Jason Murphy
--- Create Date:   		09:00 01/27/2016 
--- Design Name: 			FIFO
+-- Engineer: 			Jason Murphy
+-- Create Date:   		09:00 01/13/2017 
+-- Design Name: 		FIFO
 -- Module Name:   		FIFO - Behavioral 
--- Project Name: 			GPSInterface
+-- Project Name: 		GPSInterface
 -- Target Devices: 		Spartan 6 xc6slx9-3tgg144
 -- Tool versions: 		ISE 14.7
--- Description: 			8 bit FIFO for buffering UART data
---								Revision V0.01
+-- Description: 		8 bit FIFO for buffering UART data
+--				Revision V0.02
 -- Dependencies: 			
--- Revision 				0.01 - File Created
+-- Revision 			0.01 - File Created
+--				0.02 - FIFO Width and Depth added
 -- Additional Comments: 
 ----------------------------------------------------------------------------------
 
